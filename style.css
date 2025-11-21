@@ -29,3 +29,43 @@ nav a {
 nav a:hover {
     color: rgb(109, 96, 96);
 }
+
+main {
+    max-width: 1200px;
+    margin: 0 auto; /* truque para centralizar o bloco */
+    padding: 0 20px;
+}
+
+.hero {
+    background-color:rgb(74, 72, 72);
+    color: white;
+    padding: 60px 40px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px; /* dá uma curvatura para os itens */
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: bold; /* coloca em negrito */
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: rgb(17, 17, 115);
+}
